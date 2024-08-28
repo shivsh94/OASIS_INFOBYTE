@@ -1,0 +1,131 @@
+*{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+body {
+    background-image: url("/level2/Task_1/Background.png");
+    margin-top: 40px;
+
+}
+h1{
+    animation: .3s ease-in-out 1 alternate;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media only screen and (max-width:400px) {
+        .container{
+            margin-left: 0%;
+            height: 550px;
+            width: 300px;
+            background-color: #fd793c;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.63) 8px 8px;
+        }
+}
+
+@media only screen and (min-width:400px) {
+    .container{
+        margin-left: 39%;
+        height: 550px;
+        width: 300px;
+        background-color: #fd793c;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.63) 8px 8px;
+    }
+}
+.up {
+    height: 130px;
+    width: 290px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.bottom {
+    width: 290px;
+    height: 380px;
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+}
+.C{
+    color: red;
+    font-size: 20px;
+}
+
+.C:hover{
+    color: red;
+}
+
+.point{
+    font-size: 20px;
+}
+
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+    display: inline;
+    padding: 5px;
+}
+
+img {
+    height: fit-content;
+    padding-top: 6px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-family: cursive;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+button:hover{
+    background-color: #fd793c;
+    color: white;
+    border-color: grey;
+}
+
+input{
+    margin: 0;
+    padding: 0;
+}
+
+#txtInput{
+    color: rgb(255, 255, 255);
+    text-align: end;
+    font-family: cursive;
+    text-decoration-style: none;
+    background-color: wheat;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    height: 80px;
+    width: 288px;
+    font-size:18px ;
+}
+
+#txtOutput{
+    color: red;
+    text-align: end;
+    font-family: cursive;
+    text-decoration-style: none;
+    background-color: wheat;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    height: 46px;
+    width: 284px;
+    font-size:24px ;
+}

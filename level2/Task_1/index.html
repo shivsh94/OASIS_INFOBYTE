@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <h1 class="animate__animated animate__rubberBand">CALCULATOR</h1>
+    <div class="container">
+        <br>
+        <div class="up">
+            <input type="text" disabled id="txtInput">
+            <input placeholder="ANS" type="text" disabled id="txtOutput">
+        </div>
+        <div class="bottom">
+            <div class="first">
+                <button onclick="reset(this)" class="C">AC</button>
+                <button onclick="handleClickButton(this)" class="brace">(</button>
+                <button onclick="handleClickButton(this)" class="brace">)</button>
+                <button onclick="handleClickButton(this)" class="divide">/</button>
+            </div>
+            <div class="second">
+                <button onclick="handleClickButton(this)" class="a seven">7</button>
+                <button onclick="handleClickButton(this)" class="a eight">8</button>
+                <button onclick="handleClickButton(this)" class="a nine">9</button>
+                <button onclick="handleClickButton(this)" class="a multiply">*</button>
+            </div>
+            <div class="third">
+                <button onclick="handleClickButton(this)" class="a four">4</button>
+                <button onclick="handleClickButton(this)" class="a five">5</button>
+                <button onclick="handleClickButton(this)" class="a six">6</button>
+                <button onclick="handleClickButton(this)" class="a minus">-</button>
+            </div>
+            <div class="fourth">
+                <button onclick="handleClickButton(this)" class="a one">1</button>
+                <button onclick="handleClickButton(this)" class="a two">2</button>
+                <button onclick="handleClickButton(this)" class="a three">3</button>
+                <button onclick="handleClickButton(this)" class="a plus">+</button>
+            </div>
+            <div class="fifth">
+                <button onclick="handleClickButton(this)" class="a zero2">00</button>
+                <button onclick="handleClickButton(this)" class="a zero">0</button>
+                <button onclick="handleClickButton(this)" class="a point">.</button>
+                <button onclick="equal(this)" class="a equal">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
